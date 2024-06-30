@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textarea-wrapper {
+  position: relative;
+}
+
+.textarea {
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.loader-wrapper {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, .2);
+}
+
+.loader {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #3498db;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

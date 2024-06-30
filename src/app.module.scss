@@ -1,0 +1,13 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 10px;
+}
+
+.app-textarea {
+  width: 30vw;
+  height: 30vh;
+}
